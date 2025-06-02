@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{6f6d3cb0-4b56-4409-b475-90f1ee302572}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{b2b1eb8f-162e-4b5a-9412-f16f8cc9caac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{1f51561e-4051-4d84-8744-14004c99bb99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="textures">
+      <UniqueIdentifier>{f6a84e02-b4aa-4fa5-a8b1-4ac28b5101b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="glad.c">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="stb.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="VAO.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="VBO.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Book.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Can.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Desk.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="EBO.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="shaderClass.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="stand.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Pad.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="RubiksCube.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Laptop.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Lamp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\OpenGL\default.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\OpenGL\default.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\Elementalsoli-graf-4af94ea\Elementalsoli-graf-4af94ea\light.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\..\..\Downloads\Elementalsoli-graf-4af94ea\Elementalsoli-graf-4af94ea\light.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\OpenGL\czarnobialy.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\OpenGL\postprocess.frag">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\OpenGL\postprocess.vert">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="..\OpenGL\rozmycie.frag">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\Downloads\Elementalsoli-graf-4af94ea\Elementalsoli-graf-4af94ea\ziemia.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\Elementalsoli-graf-4af94ea\Elementalsoli-graf-4af94ea\zawleczka.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\Elementalsoli-graf-4af94ea\Elementalsoli-graf-4af94ea\Desk.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\Elementalsoli-graf-4af94ea\Elementalsoli-graf-4af94ea\ksiazka.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\Elementalsoli-graf-4af94ea\Elementalsoli-graf-4af94ea\papier.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\Elementalsoli-graf-4af94ea\Elementalsoli-graf-4af94ea\redbull.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\Elementalsoli-graf-4af94ea\Elementalsoli-graf-4af94ea\screen.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\Elementalsoli-graf-4af94ea\Elementalsoli-graf-4af94ea\wood.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\desk2.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\nogi.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\tyl.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\the_book.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\kartki.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\ziemia2.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\ziemia3.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\Pad.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\rubik2.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\rubik.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\klawiatura.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\xp.png">
+      <Filter>textures</Filter>
+    </Image>
+    <Image Include="..\..\..\Downloads\dell.png">
+      <Filter>textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Can.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Desk.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="EBO.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="shaderClass.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Stand.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="VAO.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="VBO.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Book.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Pad.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="RubiksCube.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Laptop.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Lamp.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
